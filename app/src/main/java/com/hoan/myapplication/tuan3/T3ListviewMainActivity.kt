@@ -16,8 +16,8 @@ class T3ListviewMainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_t3_listview_main)
         var lv=findViewById<ListView>(R.id.t3Listview) // anh xa
     //them du lieu vao listview
-        ls.add(T3Contact ( "Đặng Minh Quân",  "20", R.drawable.android))
-        ls.add(T3Contact ( "Fan cứng Foden",  "19", R.drawable.apple))
+        ls.add(T3Contact ( "Vương Khắc Hoàn",  "20", R.drawable.android))
+        ls.add(T3Contact ( "Tôn Ngộ Không",  "19", R.drawable.apple))
         ls.add(T3Contact ( "Vu Thi C",  "21", R.drawable.hp))
         ls.add(T3Contact ("Nguyen Van D",  "20", R.drawable.android))
         ls.add(T3Contact ( "Nguyen Van E",  "20", R.drawable.chrome))
